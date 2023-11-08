@@ -5,6 +5,18 @@
 # print(c)
 
 a = 10
+# print(a)
+# del a
+# print(a)
+b = "hello"
+
+print(type(a))
+b = "world"
+print(type(b))
+print(b)
+
+a = "This is a single line string"
 print(a)
-del a
-print(a)
+b = "This is a multi line" \
+    "string. It'll show in a single line "
+print(b)
