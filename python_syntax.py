@@ -20,3 +20,14 @@ print(a)
 b = "This is a multi line" \
     "string. It'll show in a single line "
 print(b)
+
+#Concatenatiom
+a = "hello"
+b = "world"
+
+c = a + b
+print(c)
+
+name = 'John'
+print(name[0]) # print the first character of name
+print(len(name)) # print the size of the variable name
