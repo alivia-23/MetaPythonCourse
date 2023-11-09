@@ -17,3 +17,14 @@ def fn1():
         print("Access to enclosed", enclosed_v)
     fn2()
 fn1()
+
+#Local scope
+def get_total(a, b):
+    #local variable declared inside a function
+    total = a + b;
+    return total
+
+print(get_total(5, 2)) # output -> 7
+
+# Accessing variable outside of the function:
+print(total) # output -> NameError: name 'total' is not defined
