@@ -47,7 +47,11 @@
 print("Hello", "world", sep=' , ')
 
 # input function
-str1 = input("Please enter a first name: ")
-str2 = input("Please enter a second name: ")
+# str1 = input("Please enter a first name: ")
+# str2 = input("Please enter a second name: ")
 
-print("hello {} {}".format(str1, str2))
+# print("hello {} {}".format(str1, str2))
+
+print(10 + 10.0) # 20.0
+print(10 == 10) # True
+print(10 == 10.00) # True
