@@ -10,13 +10,14 @@ class House:
         # print(house.bathrooms)
         # pass 
         # Functionality to calculate the costs from the area of the house
-        cost = rate * self.num_rooms   
+        cost =  self * rate
         return cost
 
 house = House()
-print(house.num_rooms)
-print(House.num_rooms)
-
+print(house.num_rooms) # instance referencing class attribute
+print(House.num_rooms) # class referrencing class attribute
+print(House.cost_evaluation(house.num_rooms, 10)) 
+print(House.cost_evaluation(house.bathrooms, 10))
 
 
 # house.num_rooms = 7
