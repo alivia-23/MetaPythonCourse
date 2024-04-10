@@ -9,7 +9,7 @@ class MyFirstClass:
     def hand_list(self, philosopher, book):
         self.philosopher = philosopher
         self.book = book
-
+        print(MyFirstClass.index)
         # variable + “ wrote the book: ” + variable
         print(self.philosopher + " wrote the book: " + self.book)
 
