@@ -11,7 +11,7 @@ class MyFirstClass:
         self.book = book
         print(MyFirstClass.index)
         # variable + “ wrote the book: ” + variable
-        print(self.philosopher + " wrote the book: " + self.book)
+        print(philosopher + " wrote the book: " + book)
 
 # Call function handlist()
 whodunnit = MyFirstClass()
