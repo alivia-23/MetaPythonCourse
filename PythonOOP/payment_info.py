@@ -1,3 +1,4 @@
+# Changing state of an instance object without affecting any other instances
 class Payslips:
     def __init__(self, name, payment, amount) -> None:
         self.name = name
@@ -22,3 +23,5 @@ nathan.pay()
 print("After payment")
 
 print(nathan.status(), "\n", roger.status())
+
+
