@@ -57,11 +57,11 @@ Some other flag options are:
 
 You can add multiple assert statements inside a single test function.
 
-## Additional reading**
+## Additional reading
 **Fixtures**
 Fixtures are a type of function that is applied to functions to be tested. These functions must run before that test is executed. The purpose of fixtures is to supply data from multiple sources including URLs and databases to the test before running the test. Fixtures are used in cases where code repeats initialization.
 
-**Format:**
+Format:
 
 ```python
 @pytest.fixture 
